@@ -1,0 +1,15 @@
+C:\Users\Pc\Desktop\LogSystem\obj\Debug\net7.0\LogSystem.csproj.AssemblyReference.cache
+C:\Users\Pc\Desktop\LogSystem\obj\Debug\net7.0\LogSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pc\Desktop\LogSystem\obj\Debug\net7.0\LogSystem.AssemblyInfoInputs.cache
+C:\Users\Pc\Desktop\LogSystem\obj\Debug\net7.0\LogSystem.AssemblyInfo.cs
+C:\Users\Pc\Desktop\LogSystem\obj\Debug\net7.0\LogSystem.csproj.CoreCompileInputs.cache
+C:\Users\Pc\Desktop\LogSystem\bin\Debug\net7.0\LogSystem.exe
+C:\Users\Pc\Desktop\LogSystem\bin\Debug\net7.0\LogSystem.deps.json
+C:\Users\Pc\Desktop\LogSystem\bin\Debug\net7.0\LogSystem.runtimeconfig.json
+C:\Users\Pc\Desktop\LogSystem\bin\Debug\net7.0\LogSystem.dll
+C:\Users\Pc\Desktop\LogSystem\bin\Debug\net7.0\LogSystem.pdb
+C:\Users\Pc\Desktop\LogSystem\obj\Debug\net7.0\LogSystem.dll
+C:\Users\Pc\Desktop\LogSystem\obj\Debug\net7.0\refint\LogSystem.dll
+C:\Users\Pc\Desktop\LogSystem\obj\Debug\net7.0\LogSystem.pdb
+C:\Users\Pc\Desktop\LogSystem\obj\Debug\net7.0\LogSystem.genruntimeconfig.cache
+C:\Users\Pc\Desktop\LogSystem\obj\Debug\net7.0\ref\LogSystem.dll

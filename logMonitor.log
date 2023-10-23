@@ -1,0 +1,19 @@
+2023-10-03 08:15:00,INFO,Usuário João Silva fez login com sucesso.
+2023-10-03 08:20:00,ERROR,Erro de servidor: 500 Internal Server Error.
+2023-10-03 08:25:00,INFO,Novo pedido recebido do cliente ABC123.
+2023-10-03 08:30:00,WARNING,Atenção: O espaço em disco está quase cheio.
+2023-10-03 08:35:00,DEBUG,Depuração: Variável x = 42.
+2023-10-03 08:40:00,INFO,Atualização de software disponível. Reinicie o servidor.
+2023-10-03 08:45:00,ERROR,Erro na conexão com o banco de dados: Timeout.
+2023-10-03 08:50:00,INFO,Backup dos dados concluído com sucesso.
+2023-10-03 08:55:00,WARNING,Atenção: Taxa de CPU acima de 90%.
+2023-10-03 09:00:00,INFO,Registro de temperatura do servidor: 40°C.
+2023-10-03 09:05:00,ERROR,Erro crítico: Falha no sistema, reinicializando.
+2023-10-03 09:10:00,INFO,Relatório de vendas gerado e enviado por email.
+2023-10-03 09:15:00,DEBUG,Depuração: Variável y = 17.
+2023-10-03 09:20:00,INFO,Atualização de segurança aplicada com sucesso.
+2023-10-03 09:20:00,INFO,Atualização de segurança aplicada com sucesso.
+2023-10-03 09:15:00,DEBUG,Depuração: Variável y = 17.
+2023-10-03 09:15:00,DEBUG,Depuração: Variável y = 17.
+2023-10-03 09:15:00,DEBUG,Depuração: Variável y = 17.
+2023-10-03 08:55:00,WARNING,Atenção: Taxa de CPU acima de 90%.
