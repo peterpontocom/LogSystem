@@ -13,24 +13,48 @@ using System.ComponentModel;
 class TempReal : Email
 {
     public string linha;
+    public int info = 0;
+    public int warning = 0;
+    public int error = 0;
+    public int debug = 0;
+
 
     public void LogMonitor()
     {
         Console.WriteLine("Digite seu email");
         string destinario = Console.ReadLine();
+        while(destinario == "" || !destinario.Contains("@")) 
+        {   
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Email inválido! Tente novamente!");
+            Console.ResetColor();
+            destinario = Console.ReadLine();
+        }
         Console.WriteLine("Importe o arquivo que deseja monitorar");
         string nomedoarquivo = Console.ReadLine();
-        string logFilePath = nomedoarquivo + ".log";
 
-        int warning = 0;
-        int info = 0;
-        int error = 0;
-        int debug = 0;
+        string logFilePath = nomedoarquivo;
 
-        if (!File.Exists(logFilePath))
+        if(!logFilePath.Contains(".log")) 
         {
+            logFilePath += ".log";
+        }
+
+        
+
+        while (!File.Exists(logFilePath))
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("O arquivo de log não foi encontrado.");
-            return;
+            Console.ResetColor();
+            Console.WriteLine("Digite novamente");
+            nomedoarquivo = Console.ReadLine();
+            logFilePath = nomedoarquivo;
+            Console.WriteLine(logFilePath);
+            if(!logFilePath.Contains(".log")) 
+            {
+                logFilePath += ".log";
+            }
         }
         Console.Clear();
         Console.WriteLine("Monitorando seus logs...");
@@ -68,13 +92,13 @@ class TempReal : Email
                     else if (linha.Contains("DEBUG"))
                     {
                         debug++;
-                        Console.ForegroundColor = ConsoleColor.Cyan;
+                        Console.ForegroundColor = ConsoleColor.Green;
                         Console.Write(linha + "\n");
                         Console.ResetColor();
                     }
                     if (error == 1)
                     {
-                        Console.WriteLine($"Já foram 1 erro crítico. Enviando email...");
+                        Console.WriteLine($"Erro crítico. Enviando email...");
                         EnviarEmail(destinario, "error");
                         error = 0;
                     }

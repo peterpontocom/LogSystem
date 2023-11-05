@@ -6,7 +6,7 @@ using System.Diagnostics;
 
 class Execute : TempReal
 {
-    Graphic graphic = new Graphic();
+     GraphicReal graphic = new GraphicReal();
      public void ExecutaTarefaSelecionada(int posicao)
         {
             switch (posicao)
@@ -21,6 +21,10 @@ class Execute : TempReal
                 case 1:
                     Console.Clear();
                     LogMonitor();
+                    break;
+                case 2:
+                    Console.Clear();
+                    graphic.graphicreal();
                     break;
             }
         }

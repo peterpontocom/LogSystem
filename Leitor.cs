@@ -11,9 +11,9 @@ class Leitor : Creator
     public void ler(string arquivo) 
     {
         string arquivoLog = arquivo+".log";
-    try 
-    {
-        using (StreamReader arquivoLido = new StreamReader(arquivoLog)){
+        try 
+        {
+           using (StreamReader arquivoLido = new StreamReader(arquivoLog)){
             while(!arquivoLido.EndOfStream) 
             {
                 string linha = arquivoLido.ReadLine();
@@ -39,7 +39,7 @@ class Leitor : Creator
                             Console.ResetColor();
                         }
                         else if(linha.Contains("DEBUG")) {
-                            Console.ForegroundColor = ConsoleColor.Cyan;
+                            Console.ForegroundColor = ConsoleColor.Green;
                             Console.Write(coluna + "\t");
                             Console.ResetColor();
                         }

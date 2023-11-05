@@ -15,6 +15,7 @@ namespace ConsoleApp
             {
                 "Ler e Armazenar meus Logs",
                 "Ler meus arquivos log em tempo real",
+                "Gráfico em tempo real",
             };
 
             int posicaoSelecionada = 0;
