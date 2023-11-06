@@ -1,2 +1,2 @@
 # LogSystem
- Monitoramento de logd em tempo real
+ Monitoramento de logs em tempo real
